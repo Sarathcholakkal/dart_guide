@@ -18,4 +18,21 @@ void main() {
   print(number2);
   number2 = 11;
   print(number2); // double have decimal point.
+
+  int hexa1 = 0XAABB;
+  print(hexa1); // int can also able to store hexa decimal code
+
+  //! bool varible usually used for getting comparison..............
+
+  bool isTrue = true;
+  bool isFalse = false;
+  bool checkValue() {
+    if (number2 > number1) {
+      return isTrue;
+    } else {
+      return isFalse;
+    }
+  }
+
+  print(checkValue());
 }
