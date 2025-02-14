@@ -15,4 +15,16 @@ void main() {
   print(message);
 
   //null check operator checks first value is null or not if it is null it prints the second value. OR if the second value will be chance to null it prints the first value.
+
+  //! nested ternery operator
+
+  int age = 10;
+
+  String eligibility = (age >= 18)
+      ? 'Adult'
+      : (age > 12)
+          ? 'Teenager'
+          : 'Child';
+
+  print(eligibility); // Output: Adult
 }

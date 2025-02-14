@@ -7,6 +7,8 @@
 // When we call it iterable means it is a growable type of collection.
 //! FIXED LIST
 
+import 'dart:math';
+
 void main() {
   List<int> fixed = List.filled(10, 0); // interger fixed list
   //? assign value to fixed list , fixed list support indexed based add
@@ -19,4 +21,14 @@ void main() {
 
   List<String> names = List.filled(10, "");
   names[0] = "sarth";
+
+  //! fill list with random value
+  List<int> radomlist1 = List.filled(3, 0);
+  List<int> radomlist2 = List.filled(3, 0);
+  for (int i = 0; i < 3; i++) {
+    radomlist2[i] = Random().nextInt(50);
+    radomlist1[i] = Random().nextInt(50);
+  }
+  var randomlist3 = [...radomlist2, ...radomlist1];
+  print(randomlist3);
 }

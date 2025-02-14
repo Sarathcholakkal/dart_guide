@@ -28,10 +28,60 @@ void main() {
   //? remove  At, delete the value  in the list that the index specified>
   num.removeAt(1);
   print(num);
+  //!`The "Is not empty"`  method returns true or false output, the `last`
+  //!method prints the last element of the list. The `first` method prints the first element of the list. similarly `is empty`,
+  //! the list is empty or not, if it is empty it passes true value other ways false.
+
+  if (num.isNotEmpty) {
+    print(num.first);
+    print(num.last);
+  }
+
+  //!Contains` method- check whether the element is contained or not we specified.
+  if (num.contains(50)) {
+    print("50 avilable for operations");
+  }
+
+  //! to print specific index value elements,  use the `elementAt` method.
+  print(num.elementAt(3));
+  //! similarly, index used of print element value using the index.
+  print(num.indexOf(50));
+
+  //! insert a value
+  // List<int> valueList = [1, 2, 3, 4, 5];
+
+  // print(valueList);
+
+  // valueList.insert(3, 10);
+  // print(valueList);
 }
- 
 
 
+
+
+
+// void main() {
+//   // ? intilizing empty list
+//   // List<int> numbers = List.empty();
+//   // numbers.add(10); //! cannot add to fixed non growable list
+//   // print(numbers);//! Unhandled exception:Unsupported operation: Cannot add to a fixed-length list
+
+//   //! Using the List constructor
+//   List<int> numbers =
+//       List.empty(growable: true); // Creates an empty growable list
+//   print(numbers); // Output: []
+
+// //
+// //! Using list literal
+//   List<int> numbers2 = [];
+//   print(numbers2); // Output: []
+
+//   //! fixed list:
+//   // List<int> fixedList = List.filled(5, 0); // Non-growable list with 5 elements
+// // fixedList.add(1); // Error: list is non-growable
+
+//   //? with
+// }
 
 
 
