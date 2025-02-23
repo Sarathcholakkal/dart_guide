@@ -46,7 +46,8 @@ void main() {
   //!3.........
   map1.update(
     'id',
-    (value) => 10, //! specified id will update or replace using this functions
+    (value) =>
+        value + 10, //! specified id will update or replace using this functions
   );
   print(map1);
   //!1..........
