@@ -1,3 +1,5 @@
+//! why assertion operator
+
 // *Assertion Operator.**
 
 // if you are sure the nullable value is not null, you can use  the assertion operator (!),
