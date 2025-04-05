@@ -106,9 +106,9 @@ main() {
 Future<String> longPress() {
   print("boy goes to buy a milk error");
   Future<String> result = Future.delayed(Duration(seconds: 7), () {
-    //? sync function will not able to use await infront of Future type
-    // return "child comes home (this value from future)";
-    throw "No milk in market";
+    //  ? sync function will not able to use await infront of Future type
+    return "child comes home (this value from future)";
+    // throw "No milk in market";
   });
   return result;
 }
