@@ -89,7 +89,6 @@ void main() {
   // } while (x < 5);
 
 //! practice one find a divisible number
-
   for (int i = 0; i <= 100; i++) {
     if (i % 2 == 0 && i % 3 == 0) {
       print("it is divisble by 6:$i");

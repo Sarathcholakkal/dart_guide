@@ -14,7 +14,7 @@ void main() {
     case condtition.dizzy:
       print("dizzy");
       break;
-    case condtition.rainy:
+    // case condtition.rainy:
     case condtition.sunny:
       print("sunny");
       break;

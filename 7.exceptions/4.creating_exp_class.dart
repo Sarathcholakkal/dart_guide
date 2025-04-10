@@ -6,13 +6,13 @@ class Cat {
     if (age < 0) {
       throw AgeException();
     } else {
-      this.age;
+      this.age = age;
     }
   }
 }
 
 void main() {
-  Cat cat1 = Cat(-1);
+  Cat cat1 = Cat(1);
   print(cat1.age);
 }
 // !Unhandled exception:
