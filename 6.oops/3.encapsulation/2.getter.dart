@@ -1,4 +1,4 @@
-import 'getter_setter.dart';
+import '3.setter.dart';
 
 void main(List<String> args) {
   Car car1 = Car();

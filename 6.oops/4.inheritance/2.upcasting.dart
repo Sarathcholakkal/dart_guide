@@ -7,7 +7,7 @@ class Animal {
 class Dog extends Animal {
   void makeSound() {
     print('Bark');
-    super.makeSound();
+    // super.makeSound();
   }
 
   void fetch() {
@@ -18,6 +18,9 @@ class Dog extends Animal {
 void main() {
   Dog myDog = Dog(); // Create an instance of Dog
   Animal myAnimal = myDog; // Upcasting to Animal
+  Dog newdog = Dog();
+  Animal newcasteddog = newdog;
+  newdog.makeSound();
 
   myAnimal.makeSound(); // Output: Bark
   // myAnimal.fetch();

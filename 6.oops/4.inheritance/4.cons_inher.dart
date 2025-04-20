@@ -1,4 +1,4 @@
-// !USING CONSTRUCTOR METHOD IN INHERITANCE.
+// !USING CONSTRUCTOR INHERITANCE.
 
 // *super class  constructor.*
 
