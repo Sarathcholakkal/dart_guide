@@ -39,3 +39,16 @@ void main() {
 // studnet:Rose courses
 // [dart, flutter, java]
 // dart:70
+
+
+// Nested .then() calls (callback hell):
+
+// Each then() call is nested within the previous one, which makes the code look messy and harder to follow, especially as the number of asynchronous calls increases.
+
+// Error Handling:
+
+// Since all the .then() calls are nested, handling errors at each level requires using .catchError() on each promise, which can clutter the code.
+
+// Code Readability:
+
+// It’s hard to visually track the flow of execution because the async tasks are chained. It doesn’t have the clarity of synchronous code, which makes understanding what happens next difficult.

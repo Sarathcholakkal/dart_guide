@@ -23,3 +23,17 @@ Future<String> longPress() {
 
   return result;
 }
+
+
+// mom said to boy, please buy milk from market
+// boy goes to buy milk
+// mom continues to prepare
+// cake ready
+// (after 7 seconds...)
+// ❌ No milk in market
+
+
+// 🧁 Real-World Analogy:
+// Mom tells the boy to buy milk.
+// If he comes back with milk → .then() prints success.
+// If he finds no milk in the shop → .catchError() handles the failure
